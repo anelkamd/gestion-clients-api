@@ -32,14 +32,14 @@ Une API simple construite avec **Node.js**, **Express**, et **MySQL** pour gére
    cd gestion-clients-api
 
 2. **Installez les dépendances**
-    ```bash
+   
 - **npm install**
 
 3. **Configurez la base de données**
 
 - Créez une base de données MySQL appelée gestion_clients (ou un autre nom de votre choix).
 - Exécutez le script SQL suivant pour créer la table **Clients* :
-
+    ```bash
     CREATE TABLE Clients (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255) NOT NULL,
@@ -53,7 +53,7 @@ Une API simple construite avec **Node.js**, **Express**, et **MySQL** pour gére
     - npm install dotenv
 
 5. **Exemple**
-
+```bash
 {
     "nom": "Dupont",
     "postnom": "Jean",
