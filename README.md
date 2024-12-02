@@ -32,7 +32,7 @@ Une API simple construite avec **Node.js**, **Express**, et **MySQL** pour gére
    cd gestion-clients-api
 
 2. **Installez les dépendances**
-
+    ```bash
 - **npm install**
 
 3. **Configurez la base de données**
