@@ -45,22 +45,14 @@ Une API simple construite avec **Node.js**, **Express**, et **MySQL** pour gére
     nom VARCHAR(255) NOT NULL,
     postnom VARCHAR(255) NOT NULL,
     adresse VARCHAR(255),
-    numero VARCHAR(15)
+    numero INIT(15)
 );
 
-4. **Configurez les variables d'environnement**
-
-    **Créez un fichier .env dans la racine du projet et ajoutez les informations suivantes :*
-
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=votre_mot_de_passe
-    DB_NAME=Votre Bases de donnees
-5. **Installez la bibliothèque dotenv pour lire les variables d'environnement**
+4. **Installez la bibliothèque dotenv pour lire les variables d'environnement**
 
     - npm install dotenv
 
-6. **Exemple**
+5. **Exemple**
 
 {
     "nom": "Dupont",
