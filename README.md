@@ -45,8 +45,8 @@ Une API simple construite avec **Node.js**, **Express**, et **MySQL** pour gére
     nom VARCHAR(255) NOT NULL,
     postnom VARCHAR(255) NOT NULL,
     adresse VARCHAR(255),
-    numero INIT(15)
-);
+    numero INIT(15));
+
 
 4. **Installez la bibliothèque dotenv pour lire les variables d'environnement**
 
